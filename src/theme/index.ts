@@ -4,9 +4,16 @@ import props from './props';
 import typography from "./typography";
 
 const theme = createTheme({
+  overrides: {
+    MuiFormLabel: {
+      root: {
+        color: '#000'
+      }
+    }
+  },
   typography: typography(),
   palette: palette(),
-  props: props()
+  props: props(),
 })
 
 
