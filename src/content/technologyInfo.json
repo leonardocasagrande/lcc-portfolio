@@ -1,0 +1,34 @@
+[
+  {
+    "icon": "/front.png",
+    "title": "Front-end Developer",
+    "description": "I value clean code and good UX/UI, and enjoy building beautiful things in the browser.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JS",
+      "Sass",
+      "Typescript"
+    ],
+    "technologies": [
+      "ReactJS",
+      "NextJS",
+      "MaterialUI",
+      "VueJS",
+      "JSF",
+      "Git",
+      "Firebase"
+    ]
+  },
+  {
+    "icon": "/mobile.jpg",
+    "title": "Mobile Developer",
+    "description": "I enjoy the power that Flutter gives to the developer, and how easily you can build amazing interfaces.",
+    "languages": [
+      "Dart"
+    ],
+    "technologies": [
+      "Flutter"
+    ]
+  }
+]
