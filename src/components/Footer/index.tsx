@@ -1,5 +1,5 @@
 import { Box, IconButton, Typography } from "@material-ui/core";
-import { LinkedIn, Mail, MailOutlined } from "@material-ui/icons";
+import { GitHub, LinkedIn, Mail, MailOutlined } from "@material-ui/icons";
 import React from "react";
 import { Logo } from "..";
 import SocialMediaButton from "../SocialMediaButton";
@@ -13,6 +13,7 @@ const Footer = () => {
         </Typography>
         <Box display="flex" gridGap={16} >
           <SocialMediaButton url="https://www.linkedin.com/in/leonardo-casagrande-324501198/" icon={<LinkedIn />} />
+          <SocialMediaButton url="https://github.com/leonardocasagrande" icon={<GitHub />} />
           <SocialMediaButton url="mailto:leoc.casagrande82@gmail.com" icon={<MailOutlined />} />
         </Box>
         <Typography color="textSecondary" variant="subtitle1">
