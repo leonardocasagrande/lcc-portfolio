@@ -12,7 +12,7 @@ const MainContent = () => {
         <Box display="flex" flexDirection="column" alignItems="center" mt={6}>
           <Box mb={4}>
             <Typography variant="h1">
-              Front-End & Mobile Developer
+              Fullstack Developer
             </Typography>
           </Box>
           <Box mb={6}>
@@ -34,7 +34,7 @@ const MainContent = () => {
               </Box>
               <Box>
                 <Typography color="textSecondary">
-                  {'I am a software developer, currently working for Hilab as a front-end developer.'}
+                  {'I am a software developer, currently working for Hilab as a Fullstack developer.'}
                 </Typography>
                 <Typography color="textSecondary">
                   {'I have professional experience using React, VueJS, and Java, building scaling web applications.'}
