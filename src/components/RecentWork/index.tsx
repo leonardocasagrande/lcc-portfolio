@@ -1,5 +1,6 @@
 import { Box, Grid, Typography } from "@material-ui/core";
 import React from "react";
+import { projectInfo } from "../../content";
 import ProjectButton from "../ProjectButton";
 
 const RecentWork = () => {
@@ -20,22 +21,16 @@ const RecentWork = () => {
         </Typography>
         <Box mt={8}>
           <Grid container spacing={3}>
-            <Grid item xs={12} sm={6} md={4}>
-              <ProjectButton
-                image="/move-it.jpeg"
-                title="Move It"
-                width="100%"
-                url="https://move-it-six-swart.vercel.app/"
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <ProjectButton
-                image="/npm.jpeg"
-                title="React Mui Clean Boilerplate"
-                width="100%"
-                url="https://www.npmjs.com/package/react-mui-clean-boilerplate"
-              />
-            </Grid>
+            {projectInfo.map((el) => (
+              <Grid key={el.id} item xs={12} sm={6} md={4}>
+                <ProjectButton
+                  image={el.image}
+                  title={el.title}
+                  width="100%"
+                  url={el.url}
+                />
+              </Grid>
+            ))}
           </Grid>
         </Box>
       </Box>
