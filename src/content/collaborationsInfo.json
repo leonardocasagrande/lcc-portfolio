@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "RRS Software",
+    "image": "/rrs-software.png",
+    "url": "http://www.rrs-software.com.br/"
+  },
+  {
+    "id": 2,
+    "title": "Hilab",
+    "image": "/hilab.png",
+    "url": "https://hilab.com.br/"
+  },
+  {
+    "id": 3,
+    "title": "Sicredi",
+    "image": "/sicredi.svg",
+    "url": "https://www.sicredi.com.br/home/"
+  },
+  {
+    "id": 4,
+    "title": "Sozei",
+    "image": "/sozei.webp",
+    "url": "https://www.sozei.com.br/"
+  },
+  {
+    "id": 5,
+    "title": "Toasted Snow",
+    "image": "/toastedsnow.svg",
+    "url": "https://toastedsnow.com/"
+  }
+]
